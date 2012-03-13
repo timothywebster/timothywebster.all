@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" media="screen" href="/css/screen.css"/>
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+	<script src = "modernizr.js" type="text/javascript"></script>
+	<title>{{page.title}}</title>
+</head>
+<body>
+	<div id = "wrapper">
+		<header>
+		</header>
+		<div id = 'main'>
+		<nav>
+		{% include menu.html %}
+		</nav>
+		<article>
+		{{content}}
+		</article>
+		<aside>
+		{% include social.html %}
+		</aside>
+		</div><!--main-->
+		<footer>
+		</footer>
+	</div>
+</body>
+</html>

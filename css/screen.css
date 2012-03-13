@@ -1,0 +1,115 @@
+body {
+	background: #eee;
+}
+
+#wrapper {
+	width:1000px;
+        font-family:garamond, 'palatino linotype', palatino, serif;
+	background: white;
+        margin:auto;
+        font-size: 1em;
+}
+
+header {
+	border-bottom: 1px solid #aaa;
+	background: #ccc;
+	padding:1em;
+}
+
+#social {
+padding-right:.5em;
+}
+
+#social li {
+	display:inline;
+	list-style-type:none;
+}
+
+#main {
+	display:table-row;
+}
+
+nav {
+	display: table-cell;
+	padding: 10px 10px;
+	width: 205px;
+//        font-family:'MS Sans Serif', Geneva, sans-serif;
+}
+
+nav ul {
+list-style-type:none;
+padding:.25em 1em;
+}
+
+nav a, #social a {
+color:black;
+text-decoration: none;
+}
+
+nav a:hover, #social a:hover {
+background:powderBlue;
+}
+
+article {
+	display: table-cell;
+	padding: 10px 10px;
+	width:480px;
+}
+
+aside {
+	display: table-cell;
+	padding: 10px 10px;
+	width:255px;
+text-align:right;
+}
+
+footer {
+	padding: 10px 10px;
+	border-top: 1px solid #aaa;
+	background: #ccc;
+}
+
+h1, h2 {
+font-size: 1em;
+font-family:'MS Sans Serif', Geneva, sans-serif;
+}
+
+h2 {
+margin: 2em 0em 1em 0em;
+border-bottom: 1px solid black;
+}
+
+h3 {
+font-size:1em;
+margin: 0px 0px;
+}
+
+p {
+margin-bottom:1.2em;
+line-height:1.2em;
+}
+
+#summary p, #technical p, #experience p, #education p {
+margin: .125em 0em;
+}
+
+#experience p, #education p {
+font-style:italic;
+}
+
+ul {
+list-style-type:circle;
+margin:0em 0em 1.5em 0em;
+padding-left: 0em;
+}
+
+li {
+padding: .125em 0em;
+}
+
+
+
+
+
+
+

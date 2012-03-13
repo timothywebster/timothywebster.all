@@ -1,0 +1,2 @@
+destination: /srv/timothywebster.all
+include: [.htaccess]
