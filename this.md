@@ -14,7 +14,7 @@ I am not going to trash talk drupal here. It's good for a lot of use cases, but 
 - create static exports, so that I could build phonegap applications (or offline html5, or whatever)
 - do my workflow with my own source control, rather than using some kind of baked-in, tool-unfriendly proprietary system
 
-So, I googled on *markdown, template, export* and *git,* and found [Jeckyll](https://github.com/mojombo/jekyll), which is exactly[^foot]  what I thought I would write myself if I were starting from scratch. I knew I was on to something when I saw that there was already a community of very smart folks using it. The Internet is good like that. 
+So, I googled on *markdown, template, export* and *git,* and found [jekyll](https://github.com/mojombo/jekyll), which is exactly[^foot]  what I thought I would write myself if I were starting from scratch. I knew I was on to something when I saw that there was already a community of very smart folks using it. The Internet is good like that. 
 
 [^foot]: I don't think I would have done it in ruby, but that's hardly a dealbreaker. 
 
